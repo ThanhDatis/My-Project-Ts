@@ -24,10 +24,10 @@ import {
 const Header: React.FC = () => {
   const [searchValue, setSearchValue] = useState("");
   const [languageAnchorEl, setLanguageAnchorEl] = useState<null | HTMLElement>(
-    null,
+    null
   );
   const [brandsAnchorEl, setBrandsAnchorEl] = useState<null | HTMLElement>(
-    null,
+    null
   );
 
   const navigationItems = [
